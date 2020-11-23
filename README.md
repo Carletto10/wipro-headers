@@ -4,19 +4,18 @@ Esta es una aplicacion cuyo objetivo es regresar los headers que se envian en un
 obteniendo como respuesta un mapa Map<String, List<String>> donde el key  del mapa es el nombre del header, 
 y el value es una lista de Strings con todos los valores para el respectivo header.
 
-Adicional, contiene otro  método para regresar el mismo objeto Map<String, List<String>> pero filtrado con solo los headers que se indican mediante una lista 
+Adicional, contiene otro  mï¿½todo para regresar el mismo objeto Map<String, List<String>> pero filtrado con solo los headers que se indican mediante una lista 
 de Strings
 
 ## Pre-requisitos
 
-* [Git] (https://git-scm.com/downloads)
+* [Git] (https://git-scm.com/downloads) - Control de versiones
 * [Java 8](https://www.oracle.com/mx/java/technologies/javase/javase-jdk8-downloads.html) - SDK  de Java
 * [Spring Tool Suite 4](https://spring.io/tools) - Entorno de desarrollo
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 
-    bundle install
 
-## Instalación
+## Instalaciï¿½n
 
 
 Descarga el codigo del siguiente repositorio con tu consola Git
@@ -25,7 +24,7 @@ Descarga el codigo del siguiente repositorio con tu consola Git
 git clone https://github.com/Carletto10/wipro-headers.git
 ```
 
-Importa el proyecto al el entoro de Spring tool suite 4-4.7.1.RELEASE
+Importa el proyecto al entorno de Spring tool suite 4-4.7.1.RELEASE
 
 	
 
@@ -33,7 +32,7 @@ Importa el proyecto al el entoro de Spring tool suite 4-4.7.1.RELEASE
 
 Click derecho al proyeto 'wipro' y click en Run as -> Spring Boot App
 
-La aplicación estara disponible en la siguiente URL : localhost:8080
+La aplicaciï¿½n estara disponible en la siguiente URL : localhost:8080
 
 
 # REST API
@@ -50,10 +49,6 @@ Los endpoints disponibles en la aplicacion se listan a continuacion.
 
 ### Response
 
-    $ curl -i -H 'Accept: application/json' http://localhost:8080/getCabeceras
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-	100    86    0    86    0     0    276      0 --:--:-- --:--:-- --:--:--   278HTTP/1.1 200
 	Content-Type: application/json
 	Transfer-Encoding: chunked
 	Date: Mon, 23 Nov 2020 20:22:06 GMT
@@ -71,10 +66,6 @@ Los endpoints disponibles en la aplicacion se listan a continuacion.
 
 ### Response
 
-     % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-		100    44    0    30  100    14    447    208 --:--:-- --:--:-- --:--:--   666HTTP/1.1 200
-	
 	Content-Type: application/json
 	Transfer-Encoding: chunked
 	Date: Mon, 23 Nov 2020 20:25:18 GMT
