@@ -4,7 +4,7 @@ Esta es una aplicacion cuyo objetivo es regresar los headers que se envian en un
 obteniendo como respuesta un mapa Map<String, List<String>> donde el key  del mapa es el nombre del header, 
 y el value es una lista de Strings con todos los valores para el respectivo header.
 
-Adicional, contiene otro  m�todo para regresar el mismo objeto Map<String, List<String>> pero filtrado con solo los headers que se indican mediante una lista 
+Adicional, contiene otro  método para regresar el mismo objeto Map<String, List<String>> pero filtrado con solo los headers que se indican mediante una lista 
 de Strings
 
 ## Pre-requisitos
@@ -15,7 +15,7 @@ de Strings
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 
 
-## Instalaci�n
+## Instalación
 
 
 Descarga el codigo del siguiente repositorio con tu consola Git
@@ -32,7 +32,7 @@ Importa el proyecto al entorno de Spring tool suite 4-4.7.1.RELEASE
 
 Click derecho al proyeto 'wipro' y click en Run as -> Spring Boot App
 
-La aplicaci�n estara disponible en la siguiente URL : localhost:8080
+La aplicación estara disponible en la siguiente URL : localhost:8080
 
 
 # REST API
